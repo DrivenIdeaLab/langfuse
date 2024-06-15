@@ -1,0 +1,1201 @@
+repo_name: DrivenIdeaLab/langfuse
+report_id: 6d0ab38f494ebc81496a8986fd504d85
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:55:06+00:00'
+requested_by: marcklingen
+provider: github
+branch: main
+detected_tools_count: 90
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.8
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-04-08 15:06:45.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/prisma/migrations/20230518191501_init/migration.sql
+  detection_source: packages/shared/prisma/migrations/20230518191501_init/migration.sql
+  last_updated_by: Max Deichmann
+  last_updated_on: 2023-05-18 19:15:12.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-03 13:54:16.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-13 19:18:56.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.2.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-05-03 21:17:51.000000000 Z
+- name: BullMQ
+  description: A library that implements a fast and robust queue system
+  website_url: https://github.com/taskforcesh/bullmq
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/25280/default_d1dbf45c67d448a8a16413d63d3c21cdca003fb8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Max Deichmann
+  last_updated_on: 2023-05-24 18:39:13.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 5.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 12:18:44.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-04-06 11:13:27.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/.github/workflows/codespell.yml
+  detection_source: ".github/workflows/codespell.yml"
+  last_updated_by: Yaroslav Halchenko
+  last_updated_on: 2023-08-17 01:15:16.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 09:34:35.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-03-24 09:00:48.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/vercel.json
+  detection_source: web/vercel.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2023-09-07 22:09:47.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.1.36
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: Langfuse
+  description: Open source tracing and analytics for LLM applications
+  website_url: https://langfuse.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/102062/default_4e827f52ccc87712142b16b31a736d3b65c3aa22.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Marc Klingen
+  last_updated_on: 2023-08-16 20:15:19.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse
+  detection_source: Repo Metadata
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  version: 3.0.23
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: superJSON
+  website_url: https://github.com/blitz-js/superjson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/25051/default_e6d588b7b89872630cad4650352e935999e0d113.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: "@next-auth/prisma-adapter"
+  description: Prisma adapter for next-auth
+  package_url: https://www.npmjs.com/@next-auth/prisma-adapter
+  version: 1.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 12:18:44.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 5.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 12:18:44.000000000 Z
+- name: "@sentry/node"
+  description: Offical Sentry SDK for Node.js
+  package_url: https://www.npmjs.com/@sentry/node
+  version: 7.113.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 09:34:35.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 09:34:35.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 15.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 09:34:35.000000000 Z
+- name: "@types/cors"
+  description: TypeScript definitions for cors
+  package_url: https://www.npmjs.com/@types/cors
+  version: 2.8.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-05-06 15:17:09.000000000 Z
+- name: "@types/eslint"
+  description: TypeScript definitions for eslint
+  package_url: https://www.npmjs.com/@types/eslint
+  version: 8.56.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-05-06 15:17:09.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-05-06 15:17:09.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.202
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.11.29
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: "@types/pg"
+  description: TypeScript definitions for pg
+  package_url: https://www.npmjs.com/@types/pg
+  version: 8.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17947/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.79
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-05-06 15:17:09.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-05-06 15:17:09.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/config-eslint/package.json
+  detection_source: packages/config-eslint/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 7.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: ai
+  description: The Vercel AI SDK is **a library for building AI-powered streaming
+    text and chat UIs**
+  package_url: https://www.npmjs.com/ai
+  version: 3.0.23
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-19 15:38:55.000000000 Z
+- name: bullmq
+  description: Queue for messages and jobs based on Redis
+  package_url: https://www.npmjs.com/bullmq
+  version: 5.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-03-21 14:31:36.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.36.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: decimal.js
+  description: An arbitrary-precision Decimal type for JavaScript
+  package_url: https://www.npmjs.com/decimal.js
+  version: 10.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18188/default_13969c5d2859d7d510fdef0e78c273ae025e9cc4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 14.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/config-eslint/package.json
+  detection_source: packages/config-eslint/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 17.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-17 23:10:35.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-13 19:18:56.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-04-08 15:06:45.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-04-11 18:49:04.000000000 Z
+- name: ioredis
+  description: A robust
+  package_url: https://www.npmjs.com/ioredis
+  version: 5.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-22 08:28:55.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-11 23:16:47.000000000 Z
+- name: js-tiktoken
+  description: JavaScript port of tiktoken
+  package_url: https://www.npmjs.com/js-tiktoken
+  version: 1.0.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-13 19:12:03.000000000 Z
+- name: kysely
+  description: Type safe SQL query builder
+  package_url: https://www.npmjs.com/kysely
+  version: 0.27.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-04-08 15:06:45.000000000 Z
+- name: langchain
+  description: Typescript bindings for langchain
+  package_url: https://www.npmjs.com/langchain
+  version: 0.1.36
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: next-auth
+  description: Authentication for Next.js
+  package_url: https://www.npmjs.com/next-auth
+  version: 4.24.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: node-mocks-http
+  description: Mock 'http' objects for testing Express routing functions
+  package_url: https://www.npmjs.com/node-mocks-http
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17480/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 09:34:35.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-23 09:13:28.000000000 Z
+- name: pino
+  description: Super fast, all natural json logger
+  package_url: https://www.npmjs.com/pino
+  version: 8.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-11 12:33:37.000000000 Z
+- name: pino-pretty
+  description: Prettifier for Pino log lines
+  package_url: https://www.npmjs.com/pino-pretty
+  version: 10.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18639/default_f02e96cdbc1c3cf01dabe59b227d3b3961e56b72.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-11 12:33:37.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 5.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/packages/shared/package.json
+  detection_source: packages/shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-03 12:18:44.000000000 Z
+- name: react-day-picker
+  description: Flexible date picker component for React
+  package_url: https://www.npmjs.com/react-day-picker
+  version: 8.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18299/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: release-it
+  description: CLI release tool for Git repos and npm packages
+  package_url: https://www.npmjs.com/release-it
+  version: 17.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-05-03 21:17:51.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: tsc-watch
+  description: The TypeScript compiler with onSuccess command
+  package_url: https://www.npmjs.com/tsc-watch
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18024/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/ee/package.json
+  detection_source: ee/package.json
+  last_updated_by: Marc Klingen
+  last_updated_on: 2024-04-16 10:08:41.000000000 Z
+- name: tsconfig-paths
+  description: Load node modules according to tsconfig paths
+  package_url: https://www.npmjs.com/tsconfig-paths
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 4.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Max Deichmann
+  last_updated_on: 2024-02-22 13:02:28.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.2.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langfuse/blob/main/worker/package.json
+  detection_source: worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-05-02 08:57:20.000000000 Z
